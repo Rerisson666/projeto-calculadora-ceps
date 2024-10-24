@@ -15,7 +15,7 @@ app.add_middleware(
 )
 
 # Sua chave de API do Google Maps
-API_KEY = "AIzaSyApBfVMKbIzmjgiaDICKm8V5hupA6ysAxU"
+API_KEY = ""
 
 def calcular_distancia_cep(cep_a: str, cep_b: str):
     url = f"https://maps.googleapis.com/maps/api/distancematrix/json?origins={cep_a}&destinations={cep_b}&key={API_KEY}"
