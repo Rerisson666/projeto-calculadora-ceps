@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Cálculo de Distâncias entre CEPs</h1>
+      <h1>Calculadora de Distâncias entre CEPs</h1>
       <form onSubmit={handleSubmit}>
         <input type="file" accept=".csv" onChange={handleFileChange} required />
         <button type="submit">Enviar</button>
